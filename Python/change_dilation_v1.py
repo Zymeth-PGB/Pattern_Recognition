@@ -17,7 +17,7 @@ def change_dilation(im1, dil, pupil_xyr, iris_xyr):
         col = np.array([Rpup, Gpup, Bpup])
     else:
         col = im1[int(pupil_xyr[0]), int(pupil_xyr[1])]
-
+    
     # Get original pupuil and iris radii:
     rp1 = pupil_xyr[2]
     ri = iris_xyr[2]

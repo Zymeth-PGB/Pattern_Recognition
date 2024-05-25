@@ -26,6 +26,7 @@ dil2_set = np.linspace(0.1, 0.8, N_imgs)
 t0 = time.time()
 for dil2 in tqdm(dil2_set):
     im2 = change_dilation(im1, dil2, pupil_xyr, iris_xyr)
+
 dt = time.time()-t0
 
 # Print results
