@@ -1,5 +1,4 @@
-# Pattern_Recognition
-
+# Enhanced Iris Recognition with Data Augmentation
 ## Environment:
 ---
 - Python 3.11.6
